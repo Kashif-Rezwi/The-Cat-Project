@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Serif Bengali", serif;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+
+nav:nth-child(1) {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+
+nav:nth-child(1) > div {
+  padding: 20px;
+}
+
+nav:nth-child(1) > div:nth-child(2) {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav:nth-child(1) > div > a {
+  margin: 5px;
+  text-decoration: none;
+  color: gray;
+  font-weight: 500;
+}
